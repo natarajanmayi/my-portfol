@@ -63,7 +63,7 @@ const Project = () => {
         <div className="card glass w-80">
           <figure>
             <img
-              src="./src/assets/randomcolor.jpg"
+              src = {random}
               alt="Random Color"
               className="w-full h-48 object-cover"
             />
@@ -129,7 +129,7 @@ const Project = () => {
         <div className="card glass w-80">
           <figure>
             <img
-              src="./src/assets/quize.jpg"
+              src = {game}
               alt="Add List Using Use State"
               className="w-full h-48 object-cover"
             />
