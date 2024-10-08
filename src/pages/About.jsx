@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { ThemeContext } from '../components/ThemeContext'; // Import ThemeContext
 import "./About.css";
+import mayi from "../assets/mayi.jpg.png";
 
 const About = () => {
   const { theme } = useContext(ThemeContext); // Get the theme from context
@@ -21,7 +22,7 @@ const About = () => {
 
           <div className="flex justify-center">
             <img
-              src="./src/assets/mayi.jpg.png"
+              src={mayi}
               alt="Portrait of Boopathi, a web developer"
               className="w-full max-w-xs mx-auto rounded-lg shadow-lg"
             />
